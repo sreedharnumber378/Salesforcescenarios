@@ -1,0 +1,21 @@
+<aura:component >
+	student id:
+    <ui:inputnumber></ui:inputnumber><br/>
+    student name:
+    <ui:inputtext></ui:inputtext><br/>
+    contact number:
+    <ui:inputnumber></ui:inputnumber><br/>
+    age:
+    <ui:inputnumber></ui:inputnumber><br/>
+    qualification:
+    <ui:inputSelect class="single" >
+
+        <ui:inputSelectOption text="UNDER GRADUATION"/><br/>
+            <ui:inputSelectOption text="POST GRADUATION"/><br/>
+            <ui:inputSelectOption text="UNDER GRADUATION + MBA"/><br/>
+    </ui:inputSelect><br/>
+    address:
+    <ui:inputtextarea></ui:inputtextarea><br/>
+    <ui:button label="SAVE"></ui:button>
+    <ui:button label="CANCEL"></ui:button>
+</aura:component>
